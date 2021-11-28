@@ -1,15 +1,23 @@
-Run MongoDB with docker :
+# Run MongoDB with docker :
 
+Start the mongo server :
 
+```
+docker run -d -p 27017:27017 --name test-mongo mongo:latest
+```
 
-Install reuirements
+Install requirements :
 
+```
 python3 -m pip install requirments.txt
+```
 
-To run:  
+To run the Flask app :
+
+```
 python3 app.py  
+```
 
-Go to
-http://localhost:5000/
+Navigate to `http://localhost:5000/` !
 
 
