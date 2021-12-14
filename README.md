@@ -9,7 +9,7 @@ docker run -d -p 27017:27017 --name test-mongo mongo:latest
 Install requirements :
 
 ```
-python3 -m pip install requirments.txt
+python3 -m pip install -r requirments.txt
 ```
 
 To run the Flask app :
